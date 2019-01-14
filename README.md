@@ -70,7 +70,7 @@
 
     ```js    
         const myArray = [1,2,3,4,5,6]
-        const thirdItem = myArray[2] // 4
+        const thirdItem = myArray[2] // 3
     ```
     **Explanation**: Since JavaScript arrays indexes start at 0, in order to access the third item in the array, you need to pass 2 using square bracket notation to myArray.    
 
