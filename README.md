@@ -34,7 +34,8 @@
             position:relative; 
         }
         .child { 
-            position:absolute; left:50%;
+            position:absolute; 
+            left:50%;
             transform:translate(-50%); 
         }
     ```
