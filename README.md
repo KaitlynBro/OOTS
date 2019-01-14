@@ -44,7 +44,7 @@
     
     **Absolute positioning**: the element is positioned absolutely to its positioned parent, allowing you to change its position using top/bottom/right/left
     
-    **Translate**: applies a transformation to an element, and transform: translate (X%) moves the element up, down, right, or left
+    **Transform:translate (X%)**: applies a transformation to an element, allowing you to move the element up, down, right, or left
 
 2.	*How would you print out the value from the Text setting in this header section? [https://cl.ly/567766081e0d](https://cl.ly/567766081e0d)*
 
