@@ -41,7 +41,9 @@
     ```
 
     **Relative positioning**: where the element is positioned relative to its normal position (nothing will automatically happen to this element once its relatively positioned, and only until you apply top/bottom/right/left to it, will it then move).
+    
     **Absolute positioning**: the element is positioned absolutely to its positioned parent, allowing you to change its position using top/bottom/right/left
+    
     **Translate**: applies a transformation to an element, and transform: translate (X%) moves the element up, down, right, or left
 
 2.	*How would you print out the value from the Text setting in this header section? [https://cl.ly/567766081e0d](https://cl.ly/567766081e0d)*
