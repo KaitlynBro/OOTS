@@ -44,7 +44,7 @@
     **Absolute positioning**: the element is positioned absolutely to its positioned parent, allowing you to change its position using top/bottom/right/left
     **Translate**: applies a transformation to an element, and transform: translate (X%) moves the element up, down, right, or left
 
-2.	*How would you print out the value from the Text setting in this header section? https://cl.ly/567766081e0d*
+2.	*How would you print out the value from the Text setting in this header section? [https://cl.ly/567766081e0d](https://cl.ly/567766081e0d)*
 
     <!-- {% raw %} -->
     ```html
@@ -112,10 +112,10 @@
     - **Cons**
         - Adding new elements to the code: If you reference all `li`’s on a page and store them into a variable, but then later on, add further `li`’s, the variable will not have them stored. The variable caches the `li`’s but because newer `li`’s are added, they are not cached, and therefore are not stored within the variable. (I used `li`’s as an example, but this explanation is relative for any elements being stored in a jquery object). 
 
-8. *Please download the following .zip file (https://drive.google.com/file/d/1NairIZCb7KHfsxPMhw3ctMfgkxCfcti8/view?usp=sharing) and upload it to a Shopify development site (https://www.shopify.ca/partners). There are 2 JS errors in this theme that need to be fixed. Write the URL with the corrected theme below and explain what you changed.* 
+8. *Please download the following .zip file [https://drive.google.com/file/d/1NairIZCb7KHfsxPMhw3ctMfgkxCfcti8/view?usp=sharing](https://drive.google.com/file/d/1NairIZCb7KHfsxPMhw3ctMfgkxCfcti8/view?usp=sharing) and upload it to a Shopify development site [https://www.shopify.ca/partners](https://www.shopify.ca/partners). There are 2 JS errors in this theme that need to be fixed. Write the URL with the corrected theme below and explain what you changed.* 
 *Note: both errors are not visible in the console.log immediately, but if you fix the first one, you’ll be able to see the second.*
 
-    **Updated URL: https://oots-test.myshopify.com/**
+    **Updated URL: [https://oots-test.myshopify.com](https://oots-test.myshopify.com)**
 
     **Error 1**: Adding a comma to a key value pair. "imagesLoaded": true did not have a comma at the end. Syntax errors causes the script to stop running until the error is fixed. Only the very last key value pair in an object don’t require a comma at the end.
 
@@ -139,7 +139,7 @@
 
     ```js
         $('.js-featured-promotions').each(function (index, value){
-            var $promos = $(this); // <- Changed from that
+            var $promos = $(this); // <- Chabged from that
             var animationStyle = $(this).data('promo-animation');
             $promos.waypoint(function() {
                 $(this.element).find(".feature-section").addClass("animated " + animationStyle);
