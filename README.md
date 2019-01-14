@@ -6,7 +6,7 @@
       </div>
     ```
     
-    Simplest way:
+    Margin Auto:
     
     ```css
       .child { 
