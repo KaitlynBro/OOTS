@@ -1,4 +1,3 @@
-## OOTS FED Questions
 1. *Write some CSS in the snippet below that would center the child div vertically*
     ```html
       <div class=”parent”>
