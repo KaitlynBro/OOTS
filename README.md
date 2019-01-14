@@ -89,7 +89,7 @@
     ```js
         var myArray = [4,2,3,22].reduce((sum, currentNum) => {
             return sum + currentNum
-        })
+        }) //31
     ```
 
     **Explanation**: Using reduce on an array allows you to take values in an array and combine them in some way to return one value.
