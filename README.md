@@ -142,7 +142,7 @@
 
     ```js
         $('.js-featured-promotions').each(function (index, value){
-            var $promos = $(this); // <- Chabged from that
+            var $promos = $(this); // <- Changed from that
             var animationStyle = $(this).data('promo-animation');
             $promos.waypoint(function() {
                 $(this.element).find(".feature-section").addClass("animated " + animationStyle);
