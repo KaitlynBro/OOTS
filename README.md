@@ -105,6 +105,7 @@
             lastName: "Brouwers",
             age: 26
         }
+        console.log(aboutMe.firstName) // Katie
     ```
 
 7. *What are the pros and cons of storing jQuery objects in variables?*
